@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="fileIO.h">
+    <ClInclude Include="Command.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
