@@ -26,5 +26,8 @@
     <ClInclude Include="FileIO.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="TextDegin.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

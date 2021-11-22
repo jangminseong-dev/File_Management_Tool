@@ -10,10 +10,10 @@ struct command
 }typedef command;
 enum cmds
 {
-	error=-1, help=0, order, by, asc, desc, exit_
+	error=-1, help=0, order, by, asc, desc, debug, exit_
 }typedef cmds;
 
-command cmd[] = { {"help", help}, {"order", order}, {"by", by}, {"exit", exit_}, {"asc", asc}, {"desc", desc} };
+command cmd[] = { {"help", help}, {"order", order}, {"by", by}, {"exit", exit_}, {"asc", asc}, {"desc", desc}, {"debug", debug} };
 
 void splitString(char* str, char* ch, char** arr)
 {
